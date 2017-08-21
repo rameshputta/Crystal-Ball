@@ -1,6 +1,6 @@
 <?php
 DEFINE ('DB_USER', 'root');
-DEFINE ('DB_PASSWORD', 'manchester2002');
+DEFINE ('DB_PASSWORD', 'root');
 DEFINE ('DB_HOST', 'localhost');
 DEFINE ('DB_NAME', 'production_machines');
  

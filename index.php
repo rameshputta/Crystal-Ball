@@ -10,11 +10,11 @@
 					<div class="headerlist">
 						<h2 id="name">Crystal Ball</h2>
 						<ul>
-							<li><a href="./php/schedule.php">schedule</a></li>
-							<li><a href="">inventory</a></li>
-							<li><a href="">staging</a></li>
+							<li><a href="./php/schedule.php">Schedule</a></li>
+							<li><a href="">Inventory</a></li>
+							<li><a href="">Staging</a></li>
 							<li><a href="">terminal</a></li>
-							<li id="home"><a href="./index.php">home</a></li>
+							<li id="home"><a href="./index.php">Home</a></li>
 
 						</ul>
 					</div>
@@ -37,7 +37,7 @@
 			}	
 				
 			// Create a query for the database
-			$con = mysqli_connect('localhost','root','manchester2002');
+			$con = mysqli_connect('localhost','root','root');
 			mysqli_select_db($con, 'production_machines');
 			
 			// define how many results you want per page
