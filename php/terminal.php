@@ -21,7 +21,9 @@ function getData1(){
 <input id="searchStr" style="height: 50px; width: 350px;" name="command" type="text" placeholder="Search.." onkeypress="return mykeypress(event)" />
 
 <?php
-echo "n,asd,amda,dma."
+echo "n,asd,amda,dma"
+echo ". removed"
+
 $command= 'ls';
 if(isset($_GET['command']))
 	$command = $_GET['command'];
